@@ -4,7 +4,7 @@
 
 The `getgovernanceinfo` RPC <%= summary_getGovernanceInfo %>
 
->Example from Dash Core 0.12.2.2
+>Example from Dash Core 0.12.3
 
 ```cli
 dash-cli -testnet getgovernanceinfo
