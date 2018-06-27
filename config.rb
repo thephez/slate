@@ -38,6 +38,8 @@ activate :relative_assets
 set :relative_links, true
 
 # Build Configuration
+set :build_dir, 'build'
+
 configure :build do
   # If you're having trouble with Middleman hanging, commenting
   # out the following two lines has been known to help
