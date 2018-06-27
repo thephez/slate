@@ -14,6 +14,7 @@ includes:
   #- quick-reference
   - abandontransaction
   - getblock
+  - getgovernanceinfo
   - intro
 
 search: true
