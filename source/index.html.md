@@ -15,6 +15,7 @@ includes:
   - abandontransaction
   - getblock
   - getgovernanceinfo
+  - versions
   - intro
 
 search: true
