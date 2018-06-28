@@ -40,6 +40,48 @@ html, body {
 // TABLE OF CONTENTS
 ////////////////////////////////////////////////////////////////////////////////
 
+.header {
+  position: fixed;
+  height: 10%;
+  background-color: $nav-bg;
+  width: 100%;
+  z-index: 31;
+
+  // Version Box
+  blockquote {
+    color: #fff;
+    float: right;
+    font-size: 16px;
+    height: 40%;
+    box-sizing: border-box;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
+    background-color: #292929;
+    color: #fff;
+    padding: 0.3em 8px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 10px;
+
+    // Version Details
+    p{
+      margin: 0;
+      height: 100%;
+    }
+  }
+
+  // Logo
+  img {
+    //height: 100%;
+    //padding: 0;
+    //width: 18%;
+    //float: left;
+
+    display: block;
+    max-width: 100%;
+    margin-bottom: $logo-margin;
+  }
+}
+
 #toc > ul > li > a > span {
   float: right;
   background-color: #2484FF;
@@ -54,7 +96,7 @@ html, body {
   overflow-x: hidden;
   position: fixed;
   z-index: 30;
-  top: 0;
+  top: 10%;
   left: 0;
   bottom: 0;
   width: $nav-width;
@@ -266,6 +308,7 @@ html, body {
   min-height: 100%;
 
   padding-bottom: 1px; // prevent margin overflow
+  top: 10%;
 
   // The dark box is what gives the code samples their dark background.
   // It sits essentially under the actual content block, which has a
@@ -289,6 +332,7 @@ html, body {
 }
 
 .lang-selector {
+  top: 10%;
   background-color: $lang-select-bg;
   width: 100%;
   font-weight: bold;
